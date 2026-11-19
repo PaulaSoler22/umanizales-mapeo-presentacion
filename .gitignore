@@ -1,0 +1,16 @@
+*.bak
+Thumbs.db
+.DS_Store
+artifact.html
+
+# Documento de trabajo interno: lleva la cobertura real, las asignaturas sin
+# encaje y el criterio editorial. NO debe salir de la casa.
+CLAUDE.md
+INSTRUCCIONES.md
+
+# Excel del mapeo: planes de estudio oficiales entregados por la institución.
+*.xlsx
+~$*.xlsx
+
+# PDF: se genera con «node generar.js --pdf»; se entrega aparte, no se versiona.
+*.pdf
